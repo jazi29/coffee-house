@@ -1,0 +1,31 @@
+/* Mobile min- 320 to max  768px*/
+/* Tablet min- 768 to max  1024px */
+/* Laptop min 1024px to max 1440px */
+
+
+@media screen and (min-width: 769px) and (max-width: 860px){
+    .menu-ul{
+        padding: 0;
+    }
+    header .header-menu nav {
+        padding-right: 0px;
+    }
+    header .menu-li {
+        padding-left: 32px;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 768px){
+    header .burger{
+        display: block;
+        margin-right: -75px;
+    }
+    nav{
+        display: none;
+    }
+    .coffee-menu{
+        display: none;
+    }
+    .header-menu{
+        padding: 0;
+    }
+}
