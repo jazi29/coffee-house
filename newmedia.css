@@ -17,7 +17,7 @@
 @media screen and (min-width: 319px) and (max-width: 768px){
     header .burger{
         display: block;
-        margin-right: -75px;
+        right: 40px;
     }
     nav{
         display: none;
@@ -28,4 +28,72 @@
     .header-menu{
         padding: 0;
     }
+}
+@media screen and (min-width: 1121px) and (max-width: 1355px){
+    .favorite-container{
+        gap: 250px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1120px){
+    .favorite-container{
+        gap: 0;
+    }
+}
+@media screen and (min-width: 1299px) and (max-width: 1400px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 630px;
+        height: 560px;
+    
+    }
+    .column-1 .second-wrapper, .column-2 .second-wrapper {
+        max-width: 630px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1300px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 600px;
+        height: 530px;
+    }
+    .column-1 .second-wrapper, .column-2 .second-wrapper {
+        max-width: 600px;
+        height: 370px;
+    }
+}
+@media screen and (min-width: 1176px) and (max-width: 1251px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 570px;
+        height: 500px;
+    }
+    .column-1 .second-wrapper, .column-2 .second-wrapper {
+        max-width: 570px;
+        height: 340px;
+    }
+}
+@media screen and (min-width: 1114px) and (max-width: 1175px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 540px;
+        height: 470px;
+        /* height: margin-top: will be change; */
+    }
+    .column-1 .second-wrapper, .column-2 .second-wrapper {
+        max-width: 540px;
+        height: 310px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1115px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 510px;
+        height: 440px;
+    }
+    .column-1 .second-wrapper, .column-2 .second-wrapper {
+        max-width: 510px;
+        height: 290px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .about-container{
+        flex-direction: column
+    };
 }
