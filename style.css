@@ -49,9 +49,11 @@ header .header-menu {
 }
 
 header .header-menu nav {
+  position: relative;
   padding-right: 73px;
   padding-bottom: 10px;
 }
+
 header .header-menu nav a {
   position: relative;
   color: #403F3D;
@@ -126,6 +128,7 @@ header .coffee-menu-link img {
 }
 header .burger {
   display: none;
+  position: absolute;
 }
 
 header .burger .burger-items {
@@ -287,7 +290,8 @@ header .burger .burger-items span {
   padding-left: 2px;
   padding-right: 2px;
   margin-top: 20px;
-  width: 1360px;
+  max-width: 1360px;
+  gap: 375px;
   height: 710px;
   display: flex;
   align-items: center;
@@ -434,6 +438,7 @@ header .burger .burger-items span {
   width: 660px;
   height: 430px;
 }
+
 .column-1 div, .column-2 div {
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
