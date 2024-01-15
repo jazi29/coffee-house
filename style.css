@@ -335,6 +335,9 @@ header .burger .burger-items span {
   padding-bottom: 20px;
   transition: transform 3s ease-in-out;
 }
+#slider-second, #slider-third{
+  margin-top: -50px;
+}
 .slider-block{
   display: none;
 }
