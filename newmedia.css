@@ -1,6 +1,6 @@
-/* Mobile min- 320 to max  768px*/
-/* Tablet min- 768 to max  1024px */
-/* Laptop min 1024px to max 1440px */
+/* Mobile min- 320 to max  768px*/ 
+/* Tablet min- 768 to max  1024px  + */ 
+/* Laptop min 1024px to max 1440px +  */
 
 
 @media screen and (min-width: 768px) and (max-width: 877px){
@@ -34,7 +34,7 @@
         gap: 230px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1120px){
+@media screen and (min-width: 320px) and (max-width: 1120px){
     .favorite-container{
         gap: 0;
     }
@@ -121,9 +121,9 @@
     .about{
         height: 1205px;
     }
-    .mobile-app{
+    /* .mobile-app{
         margin-top: 0;
-    }
+    } */
 }
 @media screen and (min-width: 1025px) and (max-width: 1078px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
@@ -166,12 +166,13 @@
     };
 }
 
-@media screen and (min-width: 320px) and (max-width: 1087px){
+@media screen and (min-width: 320px) and (max-width: 1150px){
     .mobile-app{
         flex-direction: column;
+        height: 1050px
     }
 }
-@media screen and (min-width: 1087px) and (max-width: 1197px){
+@media screen and (min-width: 1100px) and (max-width: 1197px){
     .mobile-app{
         padding-left: 10px;
         padding-right: 10px;
@@ -181,10 +182,9 @@
     .mobile-app{
         padding-left: 25px;
         padding-right: 25px;
+        margin-top: 0;
     }
-} 
-/* @media screen and (min-width: 1025px) and (max-width: 1186px){
-    .mobile-offer{
-        margin-top: -80px;
-    }
-} */
+}
+
+/* _______________________________________________________________ */
+
