@@ -157,7 +157,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .about{
         height: 2600px;
     }
@@ -188,3 +188,30 @@
 
 /* _______________________________________________________________ */
 
+@media screen and (min-width: 320px) and (max-width: 769px){
+   .about{
+        height: 1700px;
+   }
+   .about h2{
+        margin-top: 70px;
+   }
+   .hero-block .hero-text {
+        left: 100px;
+   }
+   .favorite-container {
+        gap: 45px;
+    }
+    .mobile-app .mobile-offer {
+        margin-top: 176px;
+        margin-right: 58px;
+    }
+    .mobile-app .mobile-offer h2 {
+        margin-right: -4px;
+    }
+    .mobile-app .mobile-offer p{
+        margin-right: -32px;
+    }
+    .mobile-app .buttons {
+        margin-top: 3px;
+    }
+}
