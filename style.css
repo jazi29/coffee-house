@@ -519,7 +519,7 @@ header .burger .burger-items span {
 }
 
 .mobile-app .button {
-  max-width: 200px;
+  width: 200px;
   padding: 11px 20px;
   display: flex;
   align-items: center;
