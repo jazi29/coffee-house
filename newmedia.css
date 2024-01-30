@@ -125,7 +125,7 @@
         margin-top: 0;
     } */
 }
-@media screen and (min-width: 1025px) and (max-width: 1078px){
+@media screen and (min-width: 1024px) and (max-width: 1078px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 480px;
         height: 410px;
