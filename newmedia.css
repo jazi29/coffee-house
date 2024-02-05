@@ -1,4 +1,4 @@
-/* Mobile min- 320 to max  768px*/ 
+/* Mobile min- 380 to max  768px*/ 
 /* Tablet min- 768 to max  1024px  + */ 
 /* Laptop min 1024px to max 1440px +  */
 
@@ -17,7 +17,7 @@
         padding-left: 32px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 380px) and (max-width: 768px){
     header .burger{
         display: block;
         right: 40px;
@@ -37,7 +37,7 @@
         gap: 230px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 1120px){
+@media screen and (min-width: 380px) and (max-width: 1120px){
     .favorite-container{
         gap: 0;
     }
@@ -148,13 +148,13 @@
         margin-top: 0;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 1024px){
+@media screen and (min-width: 380px) and (max-width: 1024px){
     .about-container{
         flex-direction: column
     };
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 380px) and (max-width: 768px){
     .second-wrapper{
         display: none;
     }
@@ -191,20 +191,10 @@
         margin-top: 0;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 973px){
-    .mobile-app{
-        /* height: 1400px; */
-    }
-}
-@media screen and (min-width: 701px) and (max-width: 747px){
-    .mobile-app{
-        /* height: 1400px; */
-    }
-}
 
 /* _______________________________________________________________ */
 
-@media screen and (min-width: 320px) and (max-width: 769px){
+@media screen and (min-width: 380px) and (max-width: 769px){
    .about{
         height: 1900px;
         border: 1px solid green;
@@ -261,7 +251,7 @@
         margin-top: -117px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 745px){
+@media screen and (min-width: 380px) and (max-width: 745px){
     .mobile-app{
         height: 1400px;
     }
@@ -271,7 +261,7 @@
         height: 1200px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 710px){
+@media screen and (min-width: 380px) and (max-width: 710px){
     .slide-first, .slide-second{
         display: none;
     }
@@ -279,7 +269,7 @@
         margin-right: 30px;
     }
 }
-/* @media screen and (min-width: 320px) and (max-width: 700px){
+/* @media screen and (min-width: 380px) and (max-width: 700px){
     .mobile-app .mobile-offer {
         margin-right: 30px;
     }
@@ -307,7 +297,7 @@
 
 /* Mobile app 
 
-320px to 425px
+380px to 425px
 425px to 530px
 530px to 635px
 635px to 768px
@@ -336,7 +326,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 625px){
+@media screen and (min-width: 380px) and (max-width: 625px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 570px;
         height: 500px;
@@ -355,10 +345,13 @@
         padding-right: 30px;
     }
     .hero-block .hero-text {
-    left: 45px;
-}}
+        right: 50px;
+        max-width: 525px;
+        border: 1px solid black;
+    }
+}
 
-@media screen and (min-width: 320px) and (max-width: 590px){
+@media screen and (min-width: 380px) and (max-width: 590px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 540px;
         height: 470px;
@@ -367,7 +360,7 @@
         max-width: 540px;
         height: 540px;
     }}
-@media screen and (min-width: 320px) and (max-width: 560px){
+@media screen and (min-width: 380px) and (max-width: 560px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 510px;
         height: 440px;
@@ -387,13 +380,18 @@
         height: 450px;
     }
 }
-/* @media screen and (min-width: 320px) and (max-width: 610px){
-    .mobile-app .mobile-offer h2{
-        margin-right: 0;
+@media screen and (min-width: 380px) and (max-width: 545px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 450px;
+        height: 380px;
     }
-} */
+    .mobile-screen img{
+        max-width: 400px;
+        height: 400px;
+    }
+}
 
-@media screen and (min-width: 320px) and (max-width: 425px){
+@media screen and (min-width: 380px) and (max-width: 425px){
     .hero-block h1{
         font-size: 42px;
     }
