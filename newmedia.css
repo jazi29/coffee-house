@@ -271,14 +271,19 @@
         height: 1200px;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 700px){
+@media screen and (min-width: 320px) and (max-width: 710px){
     .slide-first, .slide-second{
         display: none;
     }
     .mobile-app .mobile-offer {
-        margin-right: 0;
+        margin-right: 30px;
     }
 }
+/* @media screen and (min-width: 320px) and (max-width: 700px){
+    .mobile-app .mobile-offer {
+        margin-right: 30px;
+    }
+} */
 
 @media screen and (min-width: 769px) and (max-width: 990px){
     footer, .footer-content{
@@ -325,15 +330,23 @@
     .mobile-app .mobile-offer h2{
         padding-right: 5px;
     }
+    .mobile-screen img{
+        max-width: 600px;
+        height: 600px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 625px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 570px;
+        height: 500px;
+    }
     .mobile-app .mobile-offer h2{
         margin-right: 0;
     }
     .mobile-screen img{
-        max-width: 600px;
-        height: 600px;
+        max-width: 570px;
+        height: 570px;
     }
     .hero-block h1{
         font-size: 56px;
@@ -347,31 +360,31 @@
 
 @media screen and (min-width: 320px) and (max-width: 590px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
-        max-width: 570px;
-        height: 500px;
-    }
-    .mobile-screen img{
-        max-width: 570px;
-        height: 570px;
-    }}
-@media screen and (min-width: 320px) and (max-width: 560px){
-    .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 540px;
         height: 470px;
     }
     .mobile-screen img{
         max-width: 540px;
         height: 540px;
-    }
-}
-@media screen and (min-width: 425px) and (max-width: 535px){
+    }}
+@media screen and (min-width: 320px) and (max-width: 560px){
     .column-1 .first-wrapper, .column-2 .first-wrapper {
         max-width: 510px;
         height: 440px;
     }
     .mobile-screen img{
-        max-width: 510px;
-        height: 510px;
+        max-width: 480px;
+        height: 480px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 535px){
+    .column-1 .first-wrapper, .column-2 .first-wrapper {
+        max-width: 480px;
+        height: 410px;
+    }
+    .mobile-screen img{
+        max-width: 450px;
+        height: 450px;
     }
 }
 /* @media screen and (min-width: 320px) and (max-width: 610px){
@@ -386,5 +399,11 @@
     }
     .favorite-block h2, .about h2, .mobile-app .mobile-offer h2,.footer-offer .offer-text h2{
         font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 703px){
+    .first-wrapper{
+        max-width: 670px;
     }
 }
