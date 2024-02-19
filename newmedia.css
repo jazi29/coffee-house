@@ -267,7 +267,7 @@
 }
 @media screen and (min-width: 380px) and (max-width: 745px) {
   .mobile-app {
-    height: 1400px;
+    height: 1200px;
   }
 }
 @media screen and (min-width: 745px) and (max-width: 768px) {
@@ -359,6 +359,12 @@
   .hero-block h1 {
     font-size: 56px;
   }
+  .favorite-block h2,
+  .about h2,
+  .mobile-app .mobile-offer h2,
+  .footer-offer .offer-text h2 {
+    font-size: 56px;
+  }
   .hero-block .hero-text p {
     padding-right: 30px;
   }
@@ -429,5 +435,15 @@
 @media screen and (min-width: 690px) and (max-width: 703px) {
   .first-wrapper {
     max-width: 670px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 545px) {
+  .mobile-screen {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 380px) and (max-width: 540px) {
+  .mobile-app {
+    height: 945px;
   }
 }
